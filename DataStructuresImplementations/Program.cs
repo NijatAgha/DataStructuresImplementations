@@ -6,7 +6,7 @@ namespace DataStructuresImplementations
     {
         static void Main(string[] args)
         {
-           
+            
         }
     }
 }
