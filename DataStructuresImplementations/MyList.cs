@@ -24,8 +24,16 @@ namespace DataStructuresImplementations
         // Remove specified index from list
         public void RemoveAt(int index)
         {
-            elements[index] = -1;
-            temp--;
+            try
+            {
+                elements[index] = -1;
+                temp--;
+            }
+         
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error: {0}", ex.Message);
+            }
         }
 
         // Return size of the list
